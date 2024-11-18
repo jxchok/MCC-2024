@@ -2,7 +2,7 @@ def simple_game(input_file):
     with open(input_file, 'r') as file:
         lines = file.readlines()
     
-    n = int(lines[0])  #
+    n = int(lines[0])
     pairs = []
     
     for i in range(1, n + 1):
