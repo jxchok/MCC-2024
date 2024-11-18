@@ -1,5 +1,5 @@
-def simple_game(file_path):
-    with open(file_path, 'r') as file:
+def simple_game(input_file):
+    with open(input_file, 'r') as file:
         lines = file.readlines()
     
     n = int(lines[0])  #
@@ -25,6 +25,6 @@ def simple_game(file_path):
     return result
 
 
-file_path = "input.txt"  
+input_file = "input.txt"  
 
-print(simple_game(file_path))
+print(simple_game(input_file))
